@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Bow-T/bow-agent/main/schema/bow-skill.schema.json",
+  "id": "qc",
+  "label": "QC",
+  "version": "1.0.0",
+  "description": "Bộ skill QC cho bow-agent — nạp tự động khi chạy QC Mode (BOW_QC_MODE). Gồm qc-triage (chấm loại ticket, chỉ báo cáo) và qc-triage-apply (chấm xong ghi kết luận + transition lên Jira khi được duyệt). Cần QC Mode mở tool Skill + Jira read/write.",
+  "maintainer": "bow-agent",
+  "skillsDir": "skills",
+  "skills": [
+    "qc-triage",
+    "qc-triage-apply"
+  ]
+}
